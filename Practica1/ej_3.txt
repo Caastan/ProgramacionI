@@ -1,0 +1,15 @@
+    1  cd ../../etc
+    2  cd pam.d/
+    3  ls
+    4  cd login 
+    5  grep auth login 
+    6  grep ^auth login
+    7  cat login 
+    8  grep auth$ login
+    9  grep -v # login
+   10  grep -v ^# login
+   11  grep -v ^# login | grep -v ^$ login
+   12  grep -o -i pam login | wc -l 
+   13  history 
+   14  cd ../../home/castaan
+   15  history > ej_3.txt 
