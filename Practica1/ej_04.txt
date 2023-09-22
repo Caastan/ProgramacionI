@@ -1,0 +1,5 @@
+    1  ls
+    2  ls -a 
+    3  cd ..
+    4  cd castaan/
+    5  history > ej_04.txt
